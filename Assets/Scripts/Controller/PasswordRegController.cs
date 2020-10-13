@@ -48,9 +48,7 @@ public class PasswordRegController : MonoBehaviour
             case GameModel.PasswdMode.NeedPassword:
                 ShowPasspromptPanel();
                 break;
-
-        }
-        
+        }   
     }
 
     public void RegisterPlayer()

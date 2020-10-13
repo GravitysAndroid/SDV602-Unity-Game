@@ -76,12 +76,9 @@
     <Compile Include="Assets\Scripts\Controller\ShowHidePanels\PanelShowHideInventory.cs" />
     <Compile Include="Assets\Scripts\Controller\ShowHidePanels\PanelShowHideMap.cs" />
     <Compile Include="Assets\Scripts\Model\ActionResponse.cs" />
-    <Compile Include="Assets\Scripts\Model\DataService\DataService.cs" />
-    <Compile Include="Assets\Scripts\Model\DataService\SQLite.cs" />
     <Compile Include="Assets\Scripts\Model\DataServices\DataService.cs" />
     <Compile Include="Assets\Scripts\Model\DataServices\SQLite.cs" />
     <Compile Include="Assets\Scripts\Model\GameModel.cs" />
-    <Compile Include="Assets\Scripts\Model\GameModel_ToddCopy.cs" />
     <Compile Include="Assets\Scripts\Model\InputAction.cs" />
     <Compile Include="Assets\Scripts\Model\InteractableItems.cs" />
     <Compile Include="Assets\Scripts\Model\InteractableObject.cs" />
