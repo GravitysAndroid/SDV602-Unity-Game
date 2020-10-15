@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class PasswordRegController : MonoBehaviour
+public class PasswordRegisterController : MonoBehaviour
 {
     public GameObject RegPanel;
     public GameObject PasspromptPanel;
