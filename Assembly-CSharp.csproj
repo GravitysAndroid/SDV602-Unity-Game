@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D4FAE3D0-3060-C1C1-A36C-2467B38A02A4}</ProjectGuid>
+    <ProjectGuid>{A864C10D-AEC6-AB2F-D52F-6B970D8C84EF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,22 +67,22 @@
     <Compile Include="Assets\Scripts\Controller\GameController.cs" />
     <Compile Include="Assets\Scripts\Controller\InventoryViewer.cs" />
     <Compile Include="Assets\Scripts\Controller\LoginRegisterController.cs" />
-    <Compile Include="Assets\Scripts\Controller\PanelShowHideInventory.cs" />
-    <Compile Include="Assets\Scripts\Controller\PanelShowHideMap.cs" />
-    <Compile Include="Assets\Scripts\Controller\PasswordRegController.cs" />
     <Compile Include="Assets\Scripts\Controller\RoomNavigation.cs" />
     <Compile Include="Assets\Scripts\Controller\ShowHidePanels\PanelGameShow.cs" />
     <Compile Include="Assets\Scripts\Controller\ShowHidePanels\PanelHideLoginError.cs" />
     <Compile Include="Assets\Scripts\Controller\ShowHidePanels\PanelShowHideInventory.cs" />
     <Compile Include="Assets\Scripts\Controller\ShowHidePanels\PanelShowHideMap.cs" />
     <Compile Include="Assets\Scripts\Model\ActionResponse.cs" />
-    <Compile Include="Assets\Scripts\Model\DataServices\DataService.cs" />
-    <Compile Include="Assets\Scripts\Model\DataServices\SQLite.cs" />
+    <Compile Include="Assets\Scripts\Model\DataService\DataService.cs" />
+    <Compile Include="Assets\Scripts\Model\DataService\SQLite.cs" />
     <Compile Include="Assets\Scripts\Model\GameModel.cs" />
+    <Compile Include="Assets\Scripts\Model\GameModelWrapper.cs" />
     <Compile Include="Assets\Scripts\Model\InputAction.cs" />
     <Compile Include="Assets\Scripts\Model\InteractableItems.cs" />
     <Compile Include="Assets\Scripts\Model\InteractableObject.cs" />
     <Compile Include="Assets\Scripts\Model\Interaction.cs" />
+    <Compile Include="Assets\Scripts\Model\Player.cs" />
+    <Compile Include="Assets\Scripts\Model\PlayerInventory.cs" />
     <Compile Include="Assets\Scripts\Model\Room.cs" />
     <Compile Include="Assets\Scripts\View\ChangeRoomResponse.cs" />
     <Compile Include="Assets\Scripts\View\Examine.cs" />
@@ -622,31 +622,31 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Workspace/Year2/SDV/Github/SDV602-Unity-Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/Github/Todds-Copy-of-Haydens-Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Workspace/Year2/SDV/Github/SDV602-Unity-Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/Github/Todds-Copy-of-Haydens-Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Workspace/Year2/SDV/Github/SDV602-Unity-Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/Github/Todds-Copy-of-Haydens-Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Workspace/Year2/SDV/Github/SDV602-Unity-Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/Github/Todds-Copy-of-Haydens-Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Workspace/Year2/SDV/Github/SDV602-Unity-Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/Github/Todds-Copy-of-Haydens-Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Workspace/Year2/SDV/Github/SDV602-Unity-Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/Github/Todds-Copy-of-Haydens-Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Workspace/Year2/SDV/Github/SDV602-Unity-Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/Github/Todds-Copy-of-Haydens-Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Workspace/Year2/SDV/Github/SDV602-Unity-Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/Github/Todds-Copy-of-Haydens-Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Workspace/Year2/SDV/Github/SDV602-Unity-Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/Github/Todds-Copy-of-Haydens-Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
